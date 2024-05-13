@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    font-family: young serif;
+    box-sizing: border-box;
+}
+body{
+        background-color: rgb(250, 231, 207);
+}
+.container{
+    width: 500px;
+    min-height: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-inline: auto;
+    padding: 20px;
+
+}
+.section_one{
+    border-radius: 10px;
+
+}
+ .section_one img{
+    border-radius: 7px;
+    width: 100%
+}
+.writeup p{
+    font-size: 11px;
+    line-height: 15px;
+}
+.section_two{
+    margin-top: 17px;
+    padding: 1px 25px;
+    border-radius: 7px;
+    background-color: rgba(248, 223, 248, 0.4);
+    text-align: justify;
+}
+h5{
+    margin: 15px 0;
+    color: brown;
+}
+ul{
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.ordered-list p{
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.ordered-list b{
+    margin-right: 8px;
+    color: rgb(157, 67, 3);
+
+}
+span{
+    font-size: smaller;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.horiz{
+    border: 0.001px solid grey;
+    opacity: 0.1;
+}
+h4{
+    color: rgb(157, 67, 3);
+}
+.table p, div p{
+    font-size: 12px;
+}
+
+.flex{
+    display: flex;
+    gap: 210px;
+    text-align: justify;
+    border-bottom: 0.001px solid grey;
+}
+.choco{
+    color: rgb(157, 67, 3);
+    font-weight: bold;
+}
+.one{
+    margin-left: 13px;
+}
+.two{
+    margin-left: 20px;
+}
+.no_border{
+    border: none;
+}
+
+@media (max-width:228px) {
+    body{
+        background-color: black;
+    }
+}
